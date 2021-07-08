@@ -1,0 +1,90 @@
+@import '~antd/dist/antd.css';
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less';
+
+:root {
+  --primary-color: #3FAE49;
+  --secondary-color: #A5B2B8;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.site-layout-content {
+  min-height: 60vh;
+  padding: 24px;
+  background: #fff;
+}
+
+.content-container {
+  margin: 2em 3em 0;
+}
+
+.title-bar {
+  margin-bottom: 1em;
+}
+
+.primary-btn {
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border: 0;
+  border-radius: 3;
+  box-shadow: '0 3px 5px 2px rgba(255, 105, 135, .3)';
+  color: white;
+  height: 32px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 3em;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  border-color: var(--secondary-color);
+  border-left: 6px solid var(--secondary-color);
+  border-radius: 5px;
+  margin: 2em 0;
+  padding: 0;
+}
+
+.card.active {
+  border-left-color: var(--primary-color);
+  background-color: white;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 0.875em;
+  text-transform: uppercase;
+}
+
+.absolute-btn {
+  top: -5em;
+  right: -1.7em;
+}

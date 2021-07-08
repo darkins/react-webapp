@@ -1,0 +1,21 @@
+.site-layout-content h1.amount {
+  margin: 1em 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.ant-divider-horizontal {
+  margin: 2px 0 10px;
+}
+
+.container {
+  margin-bottom: 3em;
+}
+
+.flex-sb.step {
+  padding-bottom: 2em;
+}
+
+.checkbox-container {
+  padding: 2em;
+}
